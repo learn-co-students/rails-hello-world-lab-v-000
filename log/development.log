@@ -8,3 +8,24 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 96.244.125.54 at 2016-08-30 17:57:53 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 35ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 96.244.125.54 at 2016-08-30 19:03:42 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 15ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 96.244.125.54 at 2016-08-30 19:03:47 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HelloWorldController#home as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
