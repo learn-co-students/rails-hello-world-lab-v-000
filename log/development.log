@@ -8,6 +8,7 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/some" for 127.0.0.1 at 2016-10-30 20:06:32 +0100
@@ -502,3 +503,5 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-10-30 20:12:06 +0100
+=======
+>>>>>>> 8aa5dea0f17c882a44834c5594f6e9c03bf12004
