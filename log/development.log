@@ -98,3 +98,9 @@ Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2018-01-09 14:50:12 -0700
+
+
+Started GET "/hello_world" for 127.0.0.1 at 2018-01-09 15:44:11 -0700
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 225ms (Views: 216.9ms | ActiveRecord: 0.0ms)
