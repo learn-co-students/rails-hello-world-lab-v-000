@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  get 'hello_world', to: 'static#hello_world'
+  #creates a route with a get request called 'hello_world'
+  #says that should be passed through the StaticController hello_world action
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
