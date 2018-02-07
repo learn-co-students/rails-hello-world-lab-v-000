@@ -53,4 +53,24 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get 'hello_world', to: 'static#hello'
+
+
+  #   'hey_burd_this_is_your_test' is the name specificed in the rspec test
+  #   'burdfolder#burdthing' is the directory: "./app/views/burdfolder/burdthing.html.erb"
+  get 'hey_burd_this_is_your_test', to: 'burdfolder#burdthing'
+  # since the method defined here is called "burdthing"...
+  # ...and since it is in a location defined as: "./app/controllers/burdfolder_controller.rb"
+  # the controller must be defined as thus:
+
+=begin
+  class BurdfolderController < ApplicationController
+    def burdthing
+    end
+  end
+=end
+
+  # ...so "burdfolder_controller.rb" must contain a controller of the same name in CamelCase
+  # ...and that controller in turn must contain a method that matches the name in this "./config/routes.rb" file:
+  # ...which is "burdthing"
 end
