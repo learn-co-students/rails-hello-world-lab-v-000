@@ -54,7 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get 'hello_world', to: 'static#hello'
-
+  get '/', to: 'posters#home'
+  get '/posters' => "posters#index"
 
   #   'hey_burd_this_is_your_test' is the name specificed in the rspec test
   #   'burdfolder#burdthing' is the directory: "./app/views/burdfolder/burdthing.html.erb"
