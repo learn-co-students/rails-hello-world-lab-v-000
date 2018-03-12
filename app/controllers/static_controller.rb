@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def hello_world
+  def home
 
   end
 end

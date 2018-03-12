@@ -53,5 +53,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  get 'hello_world', to: 'static#hello_world'
+  get 'hello_world', to: 'static#home'
 end
