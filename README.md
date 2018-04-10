@@ -1,5 +1,6 @@
 # Rails Hello World Lab
 
+#test
 In this lab you will integrate a static route so that the application will render a "Hello World" page.
 
 ## Objectives
