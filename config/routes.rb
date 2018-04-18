@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-    get 'hello_world', to: 'hello_world#hello_world' 
+    get 'hello_world', to: 'posts#home'
+  #       url          controller#method name in controller
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
