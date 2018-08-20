@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  #get hello_world, to: 'static#hello_world'
+  get 'hello_world', to: 'static#hello_world'
 end
