@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  # Static Routes
+    get 'hello_world', to: 'static#hello_world'
+    get 'about_us', to: 'static#about_us'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
