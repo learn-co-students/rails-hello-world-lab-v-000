@@ -463,3 +463,15 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-12-13 19:02:47 -0500
+
+
+Started GET "/" for ::1 at 2018-12-14 11:27:20 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.3.0/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 54ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for ::1 at 2018-12-14 11:27:26 -0500
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 276ms (Views: 275.3ms | ActiveRecord: 0.0ms)
