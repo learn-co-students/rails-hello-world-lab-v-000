@@ -23,7 +23,7 @@ The RSpec/Capybara test suite is currently not passing. Run the tests to see wha
 
 
 
-# 1 Delete gemfile.lock ifit is present (if not, do not worry)
+# 1 Delete gemfile.lock if it is present (if not, do not worry)
 # 2. Place this in gemfile: gem 'bundler', '~> 1.16', '>= 1.16.1'
 # 3 from the command line run this: gem install bundler -v 1.16.1
 # 4 from the command line run this: bundle _1.16.1_ install
