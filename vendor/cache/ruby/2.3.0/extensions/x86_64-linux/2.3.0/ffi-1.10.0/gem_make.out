@@ -1,0 +1,50 @@
+current directory: /home/nmarini/rails-hello-world-lab-v-000/vendor/cache/ruby/2.3.0/gems/ffi-1.10.0/ext/ffi_c
+/usr/local/rvm/rubies/ruby-2.3.1/bin/ruby -I /usr/local/rvm/rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0 -r ./siteconf20190111-848-fqcf82.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_closure_alloc()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for shlwapi.h... no
+checking for ruby/thread.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/nmarini/rails-hello-world-lab-v-000/vendor/cache/ruby/2.3.0/gems/ffi-1.10.0/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /home/nmarini/rails-hello-world-lab-v-000/vendor/cache/ruby/2.3.0/gems/ffi-1.10.0/ext/ffi_c
+make "DESTDIR="
+compiling ArrayType.c
+compiling Buffer.c
+compiling MappedType.c
+compiling LastError.c
+compiling Platform.c
+compiling DataConverter.c
+compiling Function.c
+compiling StructLayout.c
+compiling Struct.c
+compiling MemoryPointer.c
+compiling Call.c
+compiling Type.c
+compiling Types.c
+compiling FunctionInfo.c
+compiling DynamicLibrary.c
+compiling Thread.c
+compiling StructByReference.c
+compiling AbstractMemory.c
+compiling Pointer.c
+compiling ClosurePool.c
+compiling LongDouble.c
+compiling Variadic.c
+compiling MethodHandle.c
+compiling ffi.c
+compiling StructByValue.c
+linking shared-object ffi_c.so
+
+current directory: /home/nmarini/rails-hello-world-lab-v-000/vendor/cache/ruby/2.3.0/gems/ffi-1.10.0/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -m 0755 ffi_c.so ./.gem.20190111-848-1ny7ap9
