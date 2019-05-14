@@ -9,5 +9,8 @@ class HelloWorldController < ApplicationController
 
     #But in Rails, we define our routes in the routes.rb file. 
     #and our controller handles our actions
+    #in config/routes.rb
+
+
 end
   
