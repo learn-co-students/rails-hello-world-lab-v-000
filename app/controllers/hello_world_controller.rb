@@ -4,6 +4,7 @@ class HelloWorldController < ApplicationController
     protect_from_forgery with: :exception
   
     get "/hello_world" do
+        erb :"hello_world"
     end
 end
   
