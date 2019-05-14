@@ -11,6 +11,7 @@ class HelloWorldController < ApplicationController
     #and our controller handles our actions
     #in config/routes.rb
 
-
+    def hello_world
+    end
 end
   
