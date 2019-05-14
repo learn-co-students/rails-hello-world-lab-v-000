@@ -3,8 +3,11 @@ class HelloWorldController < ApplicationController
     # For APIs, you may want to use :null_session instead.
     protect_from_forgery with: :exception
   
-    get "/hello_world" do
-        erb :"hello_world"
-    end
+    #get "/hello_world" do
+     #   erb :"hello_world"
+    #end
+
+    #But in Rails, we define our routes in the routes.rb file. 
+    #and our controller handles our actions
 end
   
