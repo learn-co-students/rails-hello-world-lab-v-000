@@ -14,3 +14,4 @@ end
 #That request is sent to the server where the application's router interprets the request and sends a message to the controller mapped to that route
 #The controller communicates with the view file mapped to the controller method
 #The server returns that HTTP response, which contains the view page that can be viewed in the browser
+
