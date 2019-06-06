@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
 
+#Remember to look at the readme (or readme preview) in a seperate tab. Better for understanding
+
 #The ApplicationController gives to the created StaticController
 #Static route - A static route will render a view that does not change. 
 #Typically, you will not send parameters to it. Examples would be a site's about or contact pages.
