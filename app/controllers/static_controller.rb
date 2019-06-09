@@ -8,6 +8,7 @@ class StaticController < ApplicationController
 
   def hello_world
     render "hello_world"
+    #render "html.erb page" 
     #accesses hello_world.html.erb in static views folder 
   end
 
