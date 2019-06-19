@@ -154,3 +154,17 @@ Processing by StaticController#hello_world as HTML
 Completed 200 OK in 381ms (Views: 380.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_world" for 66.215.211.116 at 2019-06-19 23:24:29 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 205ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 66.215.211.116 at 2019-06-19 23:24:34 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
