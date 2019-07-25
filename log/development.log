@@ -287,3 +287,10 @@ app/controllers/static_controller.rb:3:in `hello_world'
   Rendering /Users/Paul/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/Paul/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /Users/Paul/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (25.8ms)
+Started GET "/hello_world" for ::1 at 2019-07-25 11:20:33 -0400
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 534ms (Views: 528.1ms | ActiveRecord: 0.0ms)
+
+
