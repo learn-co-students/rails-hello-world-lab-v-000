@@ -7,7 +7,7 @@ In this lab you will integrate a static route so that the application will rende
 2. Map a route to a controller/action
 3. Render (implicitly or explicitly) a static template
 4. Create a static template
-
+test
 ## Instructions
 
 Below are the tasks that you will need to complete in order to finish the lab:
